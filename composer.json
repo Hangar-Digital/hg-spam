@@ -1,0 +1,7 @@
+{
+  "name": "hangar/hg-spam",
+  "description": "Filtro de spam para Contact Form 7 via modelo de decisão",
+  "type": "wordpress-plugin",
+  "require": { "php": ">=8.1" },
+  "require-dev": { "phpunit/phpunit": "^11.0" }
+}

@@ -1,0 +1,20 @@
+# Dependências (só phpunit em require-dev; recriável via composer install)
+/vendor/
+
+# Cache do PHPUnit (cacheDirectory em phpunit.xml)
+.phpunit.cache/
+.phpunit.result.cache
+
+# Cobertura de testes
+/coverage/
+/build/
+
+# Segredos locais
+.env
+.env.*
+
+# Lixo de SO / editor
+.DS_Store
+.idea/
+.vscode/
+*.log
